@@ -1035,4 +1035,4 @@ Object.defineProperties( OrbitControls.prototype, {
 
 } );
 
-export default = module.exports OrbitControls
+export default OrbitControls

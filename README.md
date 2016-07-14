@@ -10,11 +10,4 @@ so you can do
 import OrbitControls from 'three-orbitcontrols'
 ```
 
-or
-
-```javascript
-var OrbitControls = require('three-orbitcontrols')
-```
-
 [original_orbitcontrols]: https://github.com/mrdoob/three.js/tree/master/examples/js/controls/OrbitControls.js "OrbitControls.js"
-
