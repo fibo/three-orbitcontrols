@@ -1,0 +1,32 @@
+{
+  "name": "three-controls",
+  "version": "1.0.0",
+  "description": "is the three.js OrbitControls from official repo examples ",
+  "main": "OrbitControls.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fibo/three-controls.git"
+  },
+  "keywords": [
+    "three",
+    "three.js",
+    "3d",
+    "camera",
+    "controls"
+  ],
+  "author": {
+    "name": "Gianluca Casati",
+    "url": "http://g14n.info"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fibo/three-controls/issues"
+  },
+  "homepage": "http://npm.im/three-controls",
+  "dependencies": {
+    "three": "^0.79.0"
+  }
+}
