@@ -26,7 +26,7 @@
     "url": "https://github.com/fibo/three-controls/issues"
   },
   "homepage": "http://npm.im/three-controls",
-  "dependencies": {
+  "peerDependencies": {
     "three": "^0.79.0"
   }
 }

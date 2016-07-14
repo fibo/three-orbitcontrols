@@ -2,7 +2,7 @@
 
 > is the three.js OrbitControls from official repo examples
 
-All credits goes to [OrbitControls.js][original_orbitcontrols] contributors.
+All credit goes to [OrbitControls.js][original_orbitcontrols] contributors.
 I have just **stolen** the code and modified to export it as a module
 so you can do
 
