@@ -1,4 +1,4 @@
-import THREE from 'three'
+var THREE = require('three')
 
 /**
  * @author qiao / https://github.com/qiao
@@ -1035,4 +1035,4 @@ Object.defineProperties( OrbitControls.prototype, {
 
 } );
 
-export default OrbitControls
+module.exports = OrbitControls
