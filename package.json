@@ -28,6 +28,6 @@
   },
   "homepage": "http://npm.im/three-orbitcontrols",
   "peerDependencies": {
-    "three": "^0.79.0"
+    "three": "0.x"
   }
 }
