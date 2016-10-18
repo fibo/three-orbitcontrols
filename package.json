@@ -1,8 +1,7 @@
 {
   "name": "three-orbitcontrols",
-  "private": true,
   "version": "1.1.1",
-  "description": "is the three.js OrbitControls from official repo examples ",
+  "description": "is the three.js OrbitControls from official repo examples",
   "main": "OrbitControls.js",
   "scripts": {
     "postversion": "git push origin v${npm_package_version}; git push origin master",
