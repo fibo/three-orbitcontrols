@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/fibo/three-orbitcontrols/issues"
   },
-  "homepage": "http://npm.im/three-orbitcontrols",
+  "homepage": "http://g14n.info/three-orbitcontrols",
   "peerDependencies": {
     "three": "0.x"
   }
