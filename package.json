@@ -4,7 +4,7 @@
   "description": "is the three.js OrbitControls from official repo examples",
   "main": "OrbitControls.js",
   "scripts": {
-    "postversion": "git push origin v${npm_package_version}; npm publish; npm run _push",
+    "postversion": "git push origin v${npm_package_version}; npm publish; git push origin master",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
