@@ -890,6 +890,8 @@ function OrbitControls ( object, domElement ) {
 
 	function onContextMenu( event ) {
 
+		if ( scope.enabled === false ) return;
+
 		event.preventDefault();
 
 	}
