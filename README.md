@@ -2,8 +2,6 @@
 
 > is the [three.js] OrbitControls from official repo examples
 
-[![NPM](https://nodei.co/npm-dl/three-orbitcontrols.png)](https://nodei.co/npm-dl/three-orbitcontrols/)
-
 All credit goes to [OrbitControls.js][original_orbitcontrols] contributors.
 I have just **stolen** the code and modified to export it as a module
 so you can do something like
