@@ -28,6 +28,6 @@
   },
   "homepage": "http://g14n.info/three-orbitcontrols",
   "peerDependencies": {
-    "three": "0.x"
+    "three": ">= 0.88"
   }
 }
