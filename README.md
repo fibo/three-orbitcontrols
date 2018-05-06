@@ -3,21 +3,22 @@
 > is the [three.js] OrbitControls from official repo examples
 
 All credit goes to [OrbitControls.js][original_orbitcontrols] contributors.
-I have just **stolen** the code and modified to export it as a module
-so you can do something like
+I have just **stolen** the code and modified to export it as a module so you can do something like
 
 ```javascript
-var THREE = require('three')
-var OrbitControls = require('three-orbitcontrols')
+const THREE = require('three')
+const OrbitControls = require('three-orbitcontrols')
+// ES6 also works, i.e.
+// import OrbitControls from 'three-orbitcontrols'
 
 // Init THREE scene (add your code)
 
-var camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000)
+const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000)
 camera.position.z = 5
 
-var renderer = new THREE.WebGLRenderer({ canvas })
+const renderer = new THREE.WebGLRenderer({ canvas })
 
-var controls = new OrbitControls(camera, renderer.domElement)
+const controls = new OrbitControls(camera, renderer.domElement)
 controls.enableDamping = true
 controls.dampingFactor = 0.25
 controls.enableZoom = false
