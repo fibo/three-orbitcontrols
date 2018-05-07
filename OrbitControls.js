@@ -15,7 +15,7 @@ var THREE = require('three')
 //    Zoom - middle mouse, or mousewheel / touch: two-finger spread or squish
 //    Pan - right mouse, or arrow keys / touch: two-finger move
 
-function OrbitControls ( object, domElement ) {
+THREE.OrbitControls = function ( object, domElement ) {
 
 	this.object = object;
 
@@ -1044,4 +1044,4 @@ Object.defineProperties( THREE.OrbitControls.prototype, {
 
 } );
 
-module.exports = exports.default = OrbitControls
+module.exports = exports.default = THREE.OrbitControls
