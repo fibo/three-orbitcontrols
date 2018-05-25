@@ -2,7 +2,8 @@
 
 > is the [three.js] OrbitControls from official repo examples
 
-All credit goes to [OrbitControls.js][original_orbitcontrols] contributors.
+All credit goes to [OrbitControls.js][original_orbitcontrols] contributors. See also [official OrbitControls documentation][orbitcontrols_documentation].
+
 I have just **stolen** the code and modified to export it as a module so you can do something like
 
 ```javascript
@@ -27,7 +28,9 @@ controls.enableZoom = false
 Please note that:
 
 1. You call `OrbitControls` directly instead of `THREE.OrbitControls`.
-2. This package does not depend directly on [three.js], which is declared as a peer dependency, so to install you will do
+2. This package does not depend directly on [three.js], which is declared as a peer dependency.
+
+To install with npm do
 
 ```bash
 npm install three three-orbitcontrols --save
@@ -41,6 +44,7 @@ I am using this package for my [3d tic tac toe](http://play.tris3d.net) online g
 License is the same as [three.js], i.e. [MIT].
 
 [original_orbitcontrols]: https://github.com/mrdoob/three.js/tree/master/examples/js/controls/OrbitControls.js "OrbitControls.js"
+[orbitcontrols_documentation]: https://threejs.org/docs/#examples/controls/OrbitControls "OrbitControls documentation"
 [three.js]: http://threejs.org/ "three.js"
 [MIT]: https://github.com/mrdoob/three.js/blob/master/LICENSE "three.js license"
 [three-orbit-controls]: https://www.npmjs.com/package/three-orbit-controls "three-orbit-controls"
