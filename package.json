@@ -4,6 +4,7 @@
   "description": "is the three.js OrbitControls from official repo examples",
   "main": "OrbitControls.js",
   "scripts": {
+    "install": "concat parts/head node_modules/three/examples/js/controls/OrbitControls.js parts/tail -o OrbitControls.js",
     "postversion": "git push origin v${npm_package_version}; npm publish; git push origin master",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,5 +30,9 @@
   "homepage": "http://g14n.info/three-orbitcontrols",
   "peerDependencies": {
     "three": ">= 0.91"
+  },
+  "devDependencies": {
+    "concat-cli": "^4.0.0",
+    "three": "^0.96.0"
   }
 }
