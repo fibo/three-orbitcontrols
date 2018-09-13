@@ -1,6 +1,6 @@
 {
   "name": "three-orbitcontrols",
-  "version": "2.96.0",
+  "version": "2.96.1",
   "description": "is the three.js OrbitControls from official repo examples",
   "main": "OrbitControls.js",
   "types": "index.d.ts",
