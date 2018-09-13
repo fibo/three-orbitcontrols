@@ -3,6 +3,7 @@
   "version": "2.1.2",
   "description": "is the three.js OrbitControls from official repo examples",
   "main": "OrbitControls.js",
+  "types": "index.d.ts",
   "scripts": {
     "install": "concat parts/head node_modules/three/examples/js/controls/OrbitControls.js parts/tail -o OrbitControls.js",
     "postversion": "git push origin v${npm_package_version}; npm publish; git push origin master",
