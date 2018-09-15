@@ -19,10 +19,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@types/three": "^0.92.21",
     "budo": "^11.3.2",
     "three": "^0.96.0",
-    "three-orbitcontrols": "^2.96.1",
+    "three-orbitcontrols": "^2.96.2",
     "tsify": "^4.0.0",
     "typescript": "^3.0.3"
   }

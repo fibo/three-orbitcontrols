@@ -1,4 +1,4 @@
-import OrbitControls from 'three-orbitcontrols';
+import * as OrbitControls from 'three-orbitcontrols';
 import * as THREE from 'three';
 
 const width = window.innerWidth;

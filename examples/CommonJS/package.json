@@ -21,6 +21,6 @@
   "dependencies": {
     "budo": "^11.3.2",
     "three": "^0.96.0",
-    "three-orbitcontrols": "^2.96.1"
+    "three-orbitcontrols": "^2.96.2"
   }
 }
