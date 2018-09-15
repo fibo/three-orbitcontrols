@@ -1,0 +1,6 @@
+{
+  "outFile": "index.js",
+  "compilerOptions" : {
+    "lib" : ["es2015", "es2015.iterable", "dom"]
+  }
+}

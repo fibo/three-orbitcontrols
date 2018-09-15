@@ -1,0 +1,26 @@
+{
+  "name": "three-orbitcontrols-commonjs-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "a simple rotating cube",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "three-orbitcontrols",
+    "commonjs",
+    "example"
+  ],
+  "author": {
+    "name": "Gianluca Casati",
+    "url": "http://g14n.info"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "budo": "^11.3.2",
+    "three": "^0.96.0",
+    "three-orbitcontrols": "^2.96.1"
+  }
+}
