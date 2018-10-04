@@ -55,7 +55,7 @@ I am using this package for my [3d tic tac toe](http://tris3d.net) online game.
 
 To update *OrbitControls.js* code follow instructions below.
 
-First of all target latest three.js release number, for instance do
+First of all, target latest three.js release number, for instance do
 
 ```bash
 THREEJS_RELEASE=96
@@ -80,6 +80,13 @@ rm OrbitControls.js.new # clean up downloaded file
 
 Note that minor version in this package is in sync with three.js minor version, i.e. release number.
 Also update `peerDependencies` attribute in *package.json* with latest three.js version.
+There is a test that checks version numbers are in sync.
+
+When you are done, launch
+
+```bash
+npm run deploy
+```
 
 ## License
 
