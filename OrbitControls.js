@@ -540,6 +540,10 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 		//console.log( 'handleKeyDown' );
 
+		// prevent the browser from scrolling on cursor up/down
+
+		event.preventDefault();
+
 		switch ( event.keyCode ) {
 
 			case scope.keys.UP:
@@ -674,7 +678,14 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 		if ( scope.enabled === false ) return;
 
+		// Prevent the browser from scrolling.
+
 		event.preventDefault();
+
+		// Manually set the focus since calling preventDefault above
+		// prevents the browser from setting it automatically.
+
+		scope.domElement.focus ? scope.domElement.focus() : window.focus();
 
 		switch ( event.button ) {
 
