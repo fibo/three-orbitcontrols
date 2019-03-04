@@ -42,7 +42,11 @@ Please note that:
 1. You call `OrbitControls` directly instead of `THREE.OrbitControls`.
 2. This package does not depend directly on [three.js], which is declared as a peer dependency.
 
-See also [examples/ folder](https://github.com/fibo/three-orbitcontrols/tree/master/examples).
+See also [examples/ folder](https://github.com/fibo/three-orbitcontrols/tree/master/examples):
+
+- [CommonJS example](https://github.com/fibo/three-orbitcontrols/tree/master/examples/CommonJS)
+- [TypeScript example](https://github.com/fibo/three-orbitcontrols/tree/master/examples/TypeScript)
+
 
 ## Motivation
 
