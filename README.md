@@ -53,7 +53,11 @@ See also [examples/ folder](https://github.com/fibo/three-orbitcontrols/tree/mas
 There is another package similar to this one: [three-orbit-controls].
 I decided to create another package with a different approach, see [this issue for the rationale](https://github.com/mattdesl/three-orbit-controls/issues/17).
 
+I am using this package for my [3d tic tac toe canvas](https://github.com/fibo/tris3d-canvas): see also online [demo](http://g14n.info/tris3d-canvas/example/).
+
+<!--
 I am using this package for my [3d tic tac toe](http://tris3d.net) online game.
+-->
 
 ## License
 
