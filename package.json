@@ -1,6 +1,6 @@
 {
   "name": "three-orbitcontrols",
-  "version": "2.102.2",
+  "version": "2.108.0",
   "description": "is the three.js OrbitControls from official repo examples",
   "main": "OrbitControls.js",
   "scripts": {
@@ -30,6 +30,6 @@
   },
   "homepage": "http://g14n.info/three-orbitcontrols",
   "peerDependencies": {
-    "three": ">= 0.102.0"
+    "three": ">= 0.108.0"
   }
 }
