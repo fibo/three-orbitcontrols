@@ -1,4 +1,8 @@
-const OrbitControls = require('three-orbitcontrols')
+// To import package in your code use the following:
+//
+//     const OrbitControls = require('three-orbitcontrols')
+//
+const OrbitControls = require('./OrbitControls.js')
 const THREE = require('three')
 
 const width = window.innerWidth

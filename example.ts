@@ -1,4 +1,8 @@
-import * as OrbitControls from 'three-orbitcontrols';
+// To import package in your code use the following:
+//
+//     import * as OrbitControls from 'three-orbitcontrols';
+//
+import * as OrbitControls from './OrbitControls.js';
 import * as THREE from 'three';
 
 const width = window.innerWidth;

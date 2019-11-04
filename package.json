@@ -1,9 +1,11 @@
 {
   "name": "three-orbitcontrols",
-  "version": "2.108.1",
+  "version": "2.110.0",
   "description": "is the three.js OrbitControls from official repo examples",
   "main": "OrbitControls.js",
   "scripts": {
+    "example_commonjs": "budo example.js --open",
+    "example_typescript": "budo example.ts --open -- -p [tsify]",
     "deploy": "npm version patch",
     "predeploy": "npm test",
     "postversion": "git push origin v${npm_package_version}; npm publish; git push origin master",
@@ -30,6 +32,13 @@
   },
   "homepage": "http://g14n.info/three-orbitcontrols",
   "peerDependencies": {
-    "three": ">= 0.108.0"
+    "three": ">= 0.110.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.5",
+    "budo": "^11.6.3",
+    "three": "^0.110.0",
+    "tsify": "^4.0.1",
+    "typescript": "^3.6.4"
   }
 }
