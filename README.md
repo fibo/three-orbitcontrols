@@ -51,7 +51,7 @@ See also examples:
 
 See [OrbiControls.js history here](https://github.com/mrdoob/three.js/commits/master/examples/js/controls/OrbitControls.js).
 
-Please also note that this repo's major version equals [three.js] release number.
+Please also note that this repo's minor version equals [three.js] release number.
 
 ## Motivation
 
