@@ -47,6 +47,11 @@ See also examples:
 - [CommonJS example](https://github.com/fibo/three-orbitcontrols/tree/master/example.js): clone this repo, install deps and launch `npm run example_commonjs`.
 - [TypeScript example](https://github.com/fibo/three-orbitcontrols/tree/master/example.ts): clone this repo, install deps and launch `npm run example_typescript`.
 
+## Changelog
+
+See [OrbiControls.js history here](https://github.com/mrdoob/three.js/commits/master/examples/js/controls/OrbitControls.js).
+
+Please also note that this repo's major version equals [three.js] release number.
 
 ## Motivation
 
