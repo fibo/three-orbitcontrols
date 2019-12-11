@@ -1,3 +1,12 @@
+**DEPRECATED**
+
+[three-js] exposes real modules now via three/examples/jsm/...
+For example to import the Orbit, do
+
+```js
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls"
+```
+
 # three-orbitcontrols
 
 > is the [three.js] OrbitControls from official repo examples
