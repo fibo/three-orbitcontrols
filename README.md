@@ -1,6 +1,6 @@
 **DEPRECATED**
 
-[three-js] exposes real modules now via three/examples/jsm/...
+[three.js] exposes real modules now via three/examples/jsm/...
 For example to import the Orbit, do
 
 ```js
